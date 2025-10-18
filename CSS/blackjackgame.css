@@ -1,0 +1,68 @@
+body {
+    color: white;
+    text-align: center;
+    background-image: url("../IMAGES/blackjackgame/bkg3.jpg");
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    text-shadow: 0 0 10px black;
+}
+
+h1 {
+    margin: 50px auto 0;
+    color: goldenrod;
+    font-size: 100px;
+    text-shadow: 0 0 10px black;
+    background: lightyellow;
+    width: 500px;
+    border-radius: 15px;
+}
+
+p {
+    background: lightseagreen;
+}
+
+button {
+    margin-top: 5px 5px;
+    color: #016f32;
+    width: 300px;
+    background: goldenrod;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#message-el {
+    color: rgb(247, 105, 4);
+    background: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.item {
+    width:500px;
+    margin: 25px auto 0;
+    font-weight: bold;
+}
+
+#player-el {
+    margin: 25px auto;
+    color: rgb(142, 40, 3);
+    background: lightyellow;
+    width: 200px;
+    font-size: 25px;
+    font-weight: 900;
+    text-shadow: -2px -2px 5px rgb(255, 255, 255);
+}
+
+#cards-el {
+    margin-bottom: 25px;
+}
+
+#sum-el {
+    margin-bottom: 25px;
+}
